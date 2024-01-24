@@ -35,12 +35,10 @@ export default function CarForm() {
       })
     )
     //empty out the form after submission
-    dispatch(changeName(''))
-    dispatch(changeCost(0))
   }
 
   return (
-    <div className='border'>
+    <div className=''>
       <h4 className='subtitle is-3'>Add Car</h4>
       <form onSubmit={handleSubmit}>
         <div className='field-group'>
